@@ -16,8 +16,7 @@ export const PlayerSchema = new Schema({
         required: true
     },
     phone: {
-        type: Number,
-        required: true
+        type: Number
     },
     isCoach: {
         type: Boolean,
